@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ale pizza</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- titulo e imagen -->
+
+        <div class="logo">
+            <img width="150px" src="../assets/img/LOGO ALE.psd.png" alt="">
+        </div>
+
+
+        <div class="titulo">
+            <h1>Bienvenidos a ALEPIZZA</h1>
+        </div>
+
+        <!-- seccion a enlaces -->
+
+        <nav class="contactos">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./pages/ordenar.html">ordenar</a></li>
+                <li><a href="./pages/compra.html">pagar</a></li>
+                <li><a href="./pages/Graciasporsucompra.html">Gracias</a></li>
+                <li><a href="./pages/recompensas.html">recompensas</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars hamburguesa"></i>
+
+    </header>
+
+    <main class="global pago">
+        <!-- encabezado de la página -->
+        <section class="pago-inicio">
+            <h2 class="pago-titulo">¡Hora de pagar!</h2>
+            <p class="pago-subtitulo">
+                Completa los datos de tu tarjeta para finalizar tu pedido.
+                <br><strong>Este sitio es solo un proyecto educativo, no ingreses datos reales.</strong>
+            </p>
+        </section>
+
+        <!-- contenido: formulario + resumen -->
+        <section class="pago-contenido">
+            <!-- tarjeta de pago -->
+            <div class="tarjeta-pago">
+                <h3 class="tarjeta-pago-titulo">Método de pago</h3>
+
+                <form class="formulario-pago">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="nombre" class="formulario">Nombre</label>
+                            <input type="text" id="nombre" class="control-formulario"
+                                placeholder="Nombre en la tarjeta">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="apellido" class="formulario">Apellido</label>
+                            <input type="text" id="apellido" class="control-formulario"
+                                placeholder="Apellido en la tarjeta">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="numero" class="formulario">Número de tarjeta</label>
+                            <input type="text" id="numero" class="control-formulario" placeholder="XXXX XXXX XXXX XXXX">
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <label for="fecha" class="formulario">Fecha de expiración</label>
+                            <input type="text" id="fecha" class="control-formulario" placeholder="MM/AA">
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <label for="cvv" class="formulario">CVV</label>
+                            <input type="password" id="cvv" class="control-formulario" placeholder="***">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label for="cuotas" class="formulario">Cuotas</label>
+                            <select id="cuotas" class="selector-formulario">
+                                <option selected>1 pago</option>
+                                <option>3 cuotas</option>
+                                <option>6 cuotas</option>
+                                <option>12 cuotas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <a href="./Graciasporsucompra.html" class="boton boton-pagar mt-4">Pagar ahora</a>
+
+
+
+                    <p class="pago-aviso">
+                        * Esta página no procesa pagos reales. Es solo una simulación para fines de práctica.
+                    </p>
+                </form>
+            </div>
+
+            <!-- resumen del pedido (ficticio) -->
+            <aside class="pago-resumen">
+                <h3 class="pago-resumen-titulo">Resumen de tu pedido</h3>
+                <ul class="pago-resumen-lista">
+                    <li>
+                        <span>Pizza especial mediana x2</span>
+                        <span>$13,98</span>
+                    </li>
+                    <li>
+                        <span>Bebida 1.5L</span>
+                        <span>$2,50</span>
+                    </li>
+                    <li>
+                        <span>Postre individual</span>
+                        <span>$3,00</span>
+                    </li>
+                </ul>
+
+                <div class="pago-resumen-total">
+                    <span>Total estimado</span>
+                    <span>$19,48</span>
+                </div>
+
+                <p class="pago-resumen-nota">
+                    Los datos del pedido son de ejemplo y pueden ser cambiados
+                    por la información que desees mostrar.
+                </p>
+            </aside>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+
+            <div class="footer-col">
+                <h4>Información Legal</h4>
+                <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
+                    mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
+                    académicos.</p>
+                <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
+                    estudiante o elementos libres de derechos.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Soporte al Cliente</h4>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Términos del servicio</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Reportar un problema</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Nuestra Compañía</h4>
+                <ul>
+                    <li><a href="#">Historia de la marca</a></li>
+                    <li><a href="#">Valores y misión</a></li>
+                    <li><a href="#">Oportunidades laborales</a></li>
+                    <li><a href="#">Contacto empresarial</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Otros enlaces</h4>
+                <ul>
+                    <li><a href="#">Ubica tu tienda</a></li>
+                    <li><a href="#">Promociones activas</a></li>
+                    <li><a href="#">Hacer un pedido</a></li>
+                    <li><a href="#">Mis recompensas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+        </div>
+    </footer>
+</body>
+
+</html>

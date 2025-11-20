@@ -1,0 +1,1232 @@
+/* Titulo */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.global {
+
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+header {
+    background-color: rgb(1, 110, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+header .titulo {
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburguesa {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: none;
+}
+
+
+
+.empezar {
+    padding: 30px 10px;
+    background-color: beige;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 5px 8px blue;
+}
+
+/* botones */
+
+
+.separacion {
+    font-size: 20px;
+}
+
+.imagen {
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px blue;
+    position: relative;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.banner:hover {
+    transform: scale(1.01);
+}
+
+
+main {
+    display: block;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.color {
+    color: black;
+}
+
+
+/* colummna central */
+
+.section {
+    text-align: left;
+}
+
+
+/* caja de promocion */
+
+.promocion {
+    width: 300px;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15 px;
+    box-shadow: 0 4px 10px;
+}
+
+/* caja de pizzas */
+
+.tipos {
+    width: 100%;
+    max-width: 1420px;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15 px;
+    box-shadow: 0 4px 10px;
+}
+
+.pagos {
+    width: 100%;
+    max-width: 1420px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: gray;
+    border: 1px solid;
+    border-radius: 15 px;
+    box-shadow: 0 4px 10px;
+}
+
+.numero {
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.compra {
+    width: 300px;
+    margin: 60px auto;
+    background-color: gray;
+    border: 1px solid;
+    border-radius: 15 px;
+    box-shadow: 0 4px 10px;
+}
+
+
+.Menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+/* ====== SECCIÓN MENU ====== */
+
+.tarjeta-menu:hover {
+
+    padding: 40px 0 60px;
+    background-color: #fff7ec;
+    margin-top: 40px;
+    transform: scale(1.01);
+}
+
+
+.titulo-menu {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+/* Tarjeta */
+.tarjeta-menu {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Imagen dentro de la tarjeta */
+.menu-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Texto de la tarjeta */
+.texto-menu {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 14px;
+    margin: 0;
+    color: #6b3c16;
+}
+
+/* sombra de la carta*/
+.tarjeta-menu:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+}
+
+
+.texto-pan {
+    display: none;
+    color: #6b3c16;
+    font-weight: 600;
+}
+
+
+.tarjeta-menu:hover p {
+    display: block;
+}
+
+
+/* tarjeta promo */
+
+
+.tarjeta-promo {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+}
+
+
+.flash {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0084d8;
+    margin: 0 0 6px;
+}
+
+/* título grande */
+.promo {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #e21818;
+    margin: 0 0 10px;
+}
+
+.texto-promo {
+    font-size: 13px;
+    color: #444;
+    margin: 0 0 16px;
+}
+
+.boton-promo {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background-color: #e21818;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-promo:hover {
+    background-color: #c11010;
+    transform: translateY(-1px);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ====== SECCIÓN DE PROMOS ====== */
+
+.seccion-promo {
+    margin-top: 40px;
+    padding: 20px 20px 40px;
+    background-color: #fff7ec;
+}
+
+.promociones {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 20px;
+}
+
+.deslizador {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.boton-promo2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+.boton-promo2:hover {
+    background-color: #f1f1f1;
+}
+
+#promos {
+    margin-right: 10px;
+}
+
+#promos2 {
+    margin-left: 10px;
+}
+
+
+.promo-pista {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.promo-pista::-webkit-scrollbar {
+    height: 6px;
+}
+
+.promo-pista::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+/* ====== TARJETAS DE PROMO ====== */
+
+.tarjeta-promo2 {
+    min-width: 320px;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+
+.tarjeta-promo-body {
+    padding: 16px 18px 20px;
+}
+
+.tarjeta-promo-titulo {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.tarjeta-promo-texto {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 14px;
+}
+
+.promo-detalles {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background-color: #e21818;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.promo-detalles:hover {
+    background-color: #c11010;
+    transform: translateY(-1px);
+}
+
+
+
+
+
+/* ====== PÁGINA ORDENAR ====== */
+
+.ordenar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo-ordenar {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.subtitulo-ordenar {
+    color: #555;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px 24px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.titulo-tarjeta {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.resumen-orden {
+    background-color: #fff7ec;
+    border-radius: 16px;
+    padding: 20px 24px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.resumen-orden-titulo {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.resumen-orden-texto {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.orden-resumen-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+
+.orden-resumen-lista li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.orden-resumen-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.orden-resumen-nota {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+
+
+/* ====== PÁGINA DE PAGO ====== */
+
+.pago {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.pago-inicio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pago-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #e21818;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.pago-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+.pago-contenido {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.tarjeta-pago {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+
+
+.pago-resumen {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+.tarjeta-pago-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+
+.formulario-pago {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.formulario {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+.control-formulario {
+    border-radius: 100px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+
+.selector-formulario {
+    border-radius: 100px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+
+.boton-pagar {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background-color: #e21818;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-pagar:hover {
+    background-color: #c11010;
+    transform: translateY(-1px);
+}
+
+
+.pago-aviso {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* resumen del pedido */
+.pago-resumen-titulo {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pago-resumen-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pago-resumen-lista li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.pago-resumen-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.pago-resumen-nota {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* ====== PÁGINA GRACIAS / CONFIRMACIÓN ====== */
+
+.gracias {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.gracias-hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gracias-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 10px;
+}
+
+.gracias-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.gracias-contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.gracias-card {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 30px 28px;
+    text-align: center;
+}
+
+
+.gracias-icono {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 auto 16px;
+}
+
+.gracias-card-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.gracias-card-texto {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.gracias-resumen {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px;
+    font-size: 14px;
+}
+
+.gracias-resumen li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 4px;
+}
+
+
+.gracias-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gracias-nota {
+    font-size: 12px;
+    color: #777;
+}
+
+
+
+
+
+.seccion-puntos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.titulo-puntos {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 8px;
+}
+
+.subtitulo-puntos {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-puntos {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #beb9b9;
+    border-radius: 16px;
+    padding: 28px 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.puntos-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #e21818;
+}
+
+.puntos-texto {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.boton-puntos {
+    display: inline-block;
+    background-color: #e21818;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-puntos:hover {
+    background-color: #c11010;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+.footer {
+    background-color: #0066b2;
+    color: #ffffff;
+    padding: 50px 0;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.footer-contenedor {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.footer-col ul li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* ====== PÁGINA PUNTOS / RECOMPENSAS ====== */
+
+.puntos {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.puntos-hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.puntos-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 8px;
+}
+
+.puntos-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.puntos-contenido {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.2fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.puntos-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+.puntos-card-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+.puntos-puntaje {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.puntos-numero {
+    font-size: 32px;
+    font-weight: 900;
+    color: #e21818;
+}
+
+.puntos-etiqueta {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.puntos-barra-externa {
+    width: 100%;
+    height: 12px;
+    border-radius: 999px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    margin: 8px 0 6px;
+}
+
+.puntos-barra-interna {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #0084d8, #e21818);
+}
+
+.puntos-meta {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.puntos-lista-simple {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.puntos-lista-simple li {
+    margin-bottom: 4px;
+}
+
+.puntos-nota {
+    font-size: 12px;
+    color: #777;
+}
+
+
+.puntos-pasos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.puntos-pasos li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.puntos-paso-numero {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #0084d8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.puntos-pasos h4 {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0 0 2px;
+}
+
+.puntos-pasos p {
+    margin: 0;
+    color: #555;
+}
+
+.puntos-aclaracion {
+    font-size: 12px;
+    color: #777;
+    margin-top: 8px;
+}
+
+
+.puntos-niveles {
+    margin-bottom: 30px;
+}
+
+.puntos-niveles-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.puntos-niveles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.puntos-nivel-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.puntos-nivel-card h4 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.puntos-nivel-puntos {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.puntos-nivel-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.puntos-nivel-card li {
+    margin-bottom: 4px;
+}
+
+
+.puntos-nivel-bronce {
+    border-top: 4px solid #b87333;
+}
+
+.puntos-nivel-plata {
+    border-top: 4px solid #c0c0c0;
+}
+
+.puntos-nivel-oro {
+    border-top: 4px solid #ffbf00;
+}
+
+
+.puntos-nota-final {
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.boton-inicio {
+    display: inline-block;
+    background-color: #e21818;
+    color: #ffffff;
+    padding: 12px 32px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+}
+
+.boton-inicio:hover {
+    background-color: #c11010;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .hamburguesa {
+        display: block;
+    }
+
+    .contactos {
+        display: none;
+    }
+
+    .menu-img {
+        height: 130px;
+    }
+
+    .menu-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .promos-section {
+        padding: 30px 16px 40px;
+    }
+
+    .promo-card {
+        min-width: 260px;
+        max-width: 260px;
+    }
+
+    .orden-title {
+        text-align: center;
+    }
+
+
+    .subtitulo-ordenar {
+        text-align: center;
+    }
+
+    .pago-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .pago-inicio {
+        padding: 0 10px;
+    }
+
+
+    .gracias-card {
+        padding: 24px 18px;
+    }
+
+    .gracias-titulo {
+        font-size: 26px;
+    }
+
+    .puntos-contenido {
+        grid-template-columns: 1fr;
+    }
+}

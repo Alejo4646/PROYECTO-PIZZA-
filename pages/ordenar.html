@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ale pizza</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- titulo e imagen -->
+
+        <div class="logo">
+            <img width="150px" src="../assets/img/LOGO ALE.psd.png" alt="">
+        </div>
+
+
+        <div class="titulo">
+            <h1>Bienvenidos a ALEPIZZA</h1>
+        </div>
+
+        <!-- seccion a enlaces -->
+
+        <nav class="contactos">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./pages/ordenar.html">ordenar</a></li>
+                <li><a href="./pages/compra.html">pagar</a></li>
+                <li><a href="./pages/Graciasporsucompra.html">Gracias</a></li>
+                <li><a href="./pages/recompensas.html">recompensas</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars hamburguesa"></i>
+
+    </header>
+    <main>
+        <div class="global">
+
+            <!-- SECCIÓN ORDENAR -->
+            <section class="Ordenar">
+                <h2 class="titulo-ordenar">
+                    ¡GRACIAS POR PREFERIRNOS!
+                </h2>
+                <p class="substitulo-ordenar">
+                    Ahora elige cómo quieres tu ALEPIZZA. Personaliza el tipo, toppings y extras.
+                </p>
+
+                <div class="row g-4 align-items-start">
+
+                    <!-- FORMULARIO -->
+                    <div class="col-12 col-lg-7">
+                        <div class="tarjeta">
+                            <h3 class="titulo-tarjeta">Elige qué pizza quieres</h3>
+
+                            <form>
+
+                                <!-- Tipos de pizza -->
+                                <div class="mb-3">
+                                    <label for="tipoPizza" class="form-label">Tipos de pizza</label>
+                                    <select id="tipoPizza" class="form-select">
+                                        <option value="">Ninguna</option>
+                                        <option>Pizza New York</option>
+                                        <option>Pan Pizza</option>
+                                        <option>Pizza Delgada</option>
+                                        <option>Pizza Crujiente</option>
+                                        <option>Pizza Clásica</option>
+                                        <option>Pizza estilo Ale</option>
+                                    </select>
+                                </div>
+
+                                <!-- Toppings -->
+                                <div class="mb-3">
+                                    <label for="toppings" class="form-label">Toppings</label>
+                                    <select id="toppings" class="form-select">
+                                        <option value="">Ninguno</option>
+                                        <option>Pepperoni</option>
+                                        <option>Jamón</option>
+                                        <option>Pimentón</option>
+                                        <option>Maíz</option>
+                                        <option>Piña</option>
+                                        <option>Anchoas</option>
+                                    </select>
+                                </div>
+
+                                <!-- Extras -->
+                                <div class="mb-4">
+                                    <label for="extras" class="form-label">Extras</label>
+                                    <select id="extras" class="form-select">
+                                        <option value="">Ninguno</option>
+                                        <option>Queso extra</option>
+                                        <option>Salsas adicionales</option>
+                                        <option>Pepperoni extra</option>
+                                    </select>
+                                </div>
+
+                                <!-- Botón pagar -->
+                                <a href="/pages/compra.html" class="btn btn-danger w-100 rounded-pill fw-bold">PAGAR</a>
+
+                        </div>
+                    </div>
+
+                    <!-- TARJETA LATERAL / PROMO -->
+                    <div class="col-12 col-lg-5">
+                        <aside class="resumen-orden">
+                            <h3 class="resumen-orden-titulo">Promo aplicada</h3>
+                            <p class="resumen-orden-texto">
+                                Estás aprovechando la promoción de ALEPIZZA. Elige tu combinación favorita
+                                y finaliza tu pedido.
+                            </p>
+
+                            <ul class="orden-resumen-lista">
+                                <li><span>Tipo de pizza:</span> <strong>—</strong></li>
+                                <li><span>Toppings:</span> <strong>—</strong></li>
+                                <li><span>Extras:</span> <strong>—</strong></li>
+                            </ul>
+
+                            <div class="orden-resumen-total">
+                                <span>Total estimado</span>
+                                <strong>$0.00</strong>
+                            </div>
+
+                            <p class="orden-resumen-nota">
+                                *Página de ejemplo para fines educativos. Los precios y productos son ficticios.
+                            </p>
+                        </aside>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+
+            <div class="footer-col">
+                <h4>Información Legal</h4>
+                <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
+                    mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
+                    académicos.</p>
+                <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
+                    estudiante o elementos libres de derechos.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Soporte al Cliente</h4>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Términos del servicio</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Reportar un problema</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Nuestra Compañía</h4>
+                <ul>
+                    <li><a href="#">Historia de la marca</a></li>
+                    <li><a href="#">Valores y misión</a></li>
+                    <li><a href="#">Oportunidades laborales</a></li>
+                    <li><a href="#">Contacto empresarial</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Otros enlaces</h4>
+                <ul>
+                    <li><a href="#">Ubica tu tienda</a></li>
+                    <li><a href="#">Promociones activas</a></li>
+                    <li><a href="#">Hacer un pedido</a></li>
+                    <li><a href="#">Mis recompensas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+        </div>
+    </footer>
+</body>
+
+</html>

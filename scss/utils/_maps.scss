@@ -1,0 +1,11 @@
+$niveles-puntos: (
+    bronce: #b87333,
+    plata: #c0c0c0,
+    oro: #ffbf00
+);
+
+@each $nombre, $color in $niveles-puntos {
+    .puntos-nivel-#{$nombre} {
+        border-top: 4px solid $color;
+    }
+}

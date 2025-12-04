@@ -1,0 +1,22 @@
+// 1. UTILIDADES (PRIMERO SIEMPRE)
+@use 'utils/variables';
+@use 'utils/mixins';
+@use 'utils/maps';
+@use 'utils/base';
+
+// 2. LAYOUT
+@use 'layout/header';
+@use 'layout/footer';
+
+// 3. COMPONENTES
+@use 'componentes/botones';
+
+// 4. PÁGINAS
+@use 'paginas/home';
+@use 'paginas/orden';
+@use 'paginas/pago';
+@use 'paginas/gracias';
+@use 'paginas/puntos';
+
+// 5. RESPONSIVE (AL FINAL SIEMPRE)
+@use 'paginas/responsive';

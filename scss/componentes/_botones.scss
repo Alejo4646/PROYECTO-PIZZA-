@@ -1,0 +1,176 @@
+
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+@use "sass:color";
+
+
+
+%boton-base {
+    display: inline-block;
+    border-radius: 999px;
+    font-weight: 800;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* botones */
+
+
+.separacion {
+    font-size: 20px;
+}
+
+.imagen {
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px blue;
+    position: relative;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.banner:hover {
+    transform: scale(1.01);
+}
+
+
+main {
+    display: block;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.color {
+    color: black;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+
+.boton-promo {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background-color: #e21818;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-promo:hover {
+    background-color: #c11010;
+    transform: translateY(-1px);
+}
+
+
+.boton-promo2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+.boton-promo2:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+.boton-pagar {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background-color: #e21818;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-pagar:hover {
+    background-color: #c11010;
+    transform: translateY(-1px);
+}
+
+
+
+
+.gracias-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.boton-puntos {
+    display: inline-block;
+    background-color: #e21818;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.boton-puntos:hover {
+    background-color: #c11010;
+    transform: translateY(-2px);
+}
+
+
+.boton-inicio {
+    @extend %boton-base;
+    @include sombra-suave;
+    background-color: $rojo;
+    color: $blanco;
+    margin: 40px auto;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.boton-inicio:hover {
+background-color: color.adjust($rojo, $lightness: -10%);
+    transform: translateY(-2px);
+}

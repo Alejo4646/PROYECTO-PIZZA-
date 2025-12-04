@@ -1,0 +1,137 @@
+/* ====== PÁGINA GRACIAS / CONFIRMACIÓN ====== */
+
+.gracias {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.gracias-hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gracias-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 10px;
+}
+
+.gracias-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.gracias-contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.gracias-card {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 30px 28px;
+    text-align: center;
+}
+
+
+.gracias-icono {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 auto 16px;
+}
+
+.gracias-card-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.gracias-card-texto {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.gracias-resumen {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px;
+    font-size: 14px;
+}
+
+.gracias-resumen li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 4px;
+}
+
+
+.gracias-nota {
+    font-size: 12px;
+    color: #777;
+}
+
+
+
+
+
+.seccion-puntos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.titulo-puntos {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 8px;
+}
+
+.subtitulo-puntos {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-puntos {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #beb9b9;
+    border-radius: 16px;
+    padding: 28px 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.puntos-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #e21818;
+}
+
+.puntos-texto {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+
+
+

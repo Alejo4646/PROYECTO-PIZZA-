@@ -1,0 +1,45 @@
+
+@use '../utils/variables' as *;   
+@use '../utils/mixins' as *;     
+
+header {
+    background-color: rgb(1, 110, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+header .titulo {
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburguesa {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: none;
+}

@@ -1,0 +1,130 @@
+/* ====== PÁGINA DE PAGO ====== */
+
+.pago {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.pago-inicio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pago-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #e21818;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.pago-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+.pago-contenido {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.tarjeta-pago {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+
+
+.pago-resumen {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+.tarjeta-pago-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+
+.formulario-pago {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.formulario {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+.control-formulario {
+    border-radius: 100px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+
+.selector-formulario {
+    border-radius: 100px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+
+
+
+.pago-aviso {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* resumen del pedido */
+.pago-resumen-titulo {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pago-resumen-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pago-resumen-lista li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.pago-resumen-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.pago-resumen-nota {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+
+

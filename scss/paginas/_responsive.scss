@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .hamburguesa {
+        display: block;
+    }
+
+    .contactos {
+        display: none;
+    }
+
+    .menu-img {
+        height: 130px;
+    }
+
+    .menu-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .promos-section {
+        padding: 30px 16px 40px;
+    }
+
+    .promo-card {
+        min-width: 260px;
+        max-width: 260px;
+    }
+
+    .orden-title {
+        text-align: center;
+    }
+
+
+    .subtitulo-ordenar {
+        text-align: center;
+    }
+
+    .pago-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .pago-inicio {
+        padding: 0 10px;
+    }
+
+
+    .gracias-card {
+        padding: 24px 18px;
+    }
+
+    .gracias-titulo {
+        font-size: 26px;
+    }
+
+    .puntos-contenido {
+        grid-template-columns: 1fr;
+    }
+}

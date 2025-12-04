@@ -1,0 +1,224 @@
+
+/* ====== PÁGINA PUNTOS / RECOMPENSAS ====== */
+
+.puntos {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.puntos-hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.puntos-titulo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084d8;
+    margin-bottom: 8px;
+}
+
+.puntos-subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.puntos-contenido {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.2fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.puntos-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    padding: 24px 26px;
+}
+
+.puntos-card-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+.puntos-puntaje {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.puntos-numero {
+    font-size: 32px;
+    font-weight: 900;
+    color: #e21818;
+}
+
+.puntos-etiqueta {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.puntos-barra-externa {
+    width: 100%;
+    height: 12px;
+    border-radius: 999px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    margin: 8px 0 6px;
+}
+
+.puntos-barra-interna {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #0084d8, #e21818);
+}
+
+.puntos-meta {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.puntos-lista-simple {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.puntos-lista-simple li {
+    margin-bottom: 4px;
+}
+
+.puntos-nota {
+    font-size: 12px;
+    color: #777;
+}
+
+
+.puntos-pasos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.puntos-pasos li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.puntos-paso-numero {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #0084d8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.puntos-pasos h4 {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0 0 2px;
+}
+
+.puntos-pasos p {
+    margin: 0;
+    color: #555;
+}
+
+.puntos-aclaracion {
+    font-size: 12px;
+    color: #777;
+    margin-top: 8px;
+}
+
+
+.puntos-niveles {
+    margin-bottom: 30px;
+}
+
+.puntos-niveles-titulo {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.puntos-niveles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.puntos-nivel-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.puntos-nivel-card h4 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.puntos-nivel-puntos {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.puntos-nivel-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.puntos-nivel-card li {
+    margin-bottom: 4px;
+}
+
+
+.puntos-nivel-bronce {
+    border-top: 4px solid #b87333;
+}
+
+.puntos-nivel-plata {
+    border-top: 4px solid #c0c0c0;
+}
+
+.puntos-nivel-oro {
+    border-top: 4px solid #ffbf00;
+}
+
+
+.puntos-nota-final {
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+

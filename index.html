@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ale pizza</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>ALEPIZZA | Inicio</title>
+    <meta name="description"
+        content="ALEPIZZA es una pizzería ficticia desarrollada como proyecto académico. Explora promociones, menú, pedidos online y sistema de recompensas. Sitio responsive con Bootstrap y SASS." />
+    <meta name="keywords"
+        content="pizza, pizzería, pedidos online, menú de pizzas, promociones, proyecto académico, bootstrap, sass" />
+    <meta name="author" content="Alejandro" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary w-100">
+            <div class="container-fluid px-3">
+                <a class="navbar-brand d-flex align-items-center gap-2 me-auto" href="./index.html">
+                    <img src="./assets/img/LOGO ALE.psd.png" alt="Logo ALEPIZZA" width="48" height="48">
+        <span class="navbar-text position-absolute start-50 translate-middle-x fw-bold text-white"> ALEPIZZA</span>
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- titulo e imagen -->
 
-        <div class="logo">
-            <img width="150px" src="./assets/img/LOGO ALE.psd.png" alt="">
-        </div>
-
-
-        <div class="titulo">
-            <h1>Bienvenidos a ALEPIZZA</h1>
-        </div>
-
-        <!-- seccion a enlaces -->
-
-        <nav class="contactos">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/ordenar.html">ordenar</a></li>
-                <li><a href="./pages/compra.html">pagar</a></li>
-                <li><a href="./pages/Graciasporsucompra.html">Gracias</a></li>
-                <li><a href="./pages/recompensas.html">recompensas</a></li>
-                <li><a href="#menu">Menu</a></li>
-            </ul>
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/ordenar.html">Ordenar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/compra.html">Pagar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/Graciasporsucompra.html">Gracias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/recompensas.html">Recompensas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <i class="fa-solid fa-bars hamburguesa"></i>
-
     </header>
+
 
     <main>
 
@@ -50,210 +56,215 @@
 
 
                 <!-- contenedor principal -->
-                <div class="container mt-4"></div>
-                <div class="row justify-content-center"></div>
-                <div class="col-12 col-md-10 col-lg-8"></div>
-
-            </section>
-
-
-            <section class="linea">
+                <section class="texto">
+                    <div class="container mt-4">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-8">
 
 
+                </section>
 
-                <div
-                    class="empezar w-100 d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 p-3">
 
-                    <h2 class="orden">Empieza tu orden</h2>
-                    <a href="./pages/ordenar.html" class="boton1 btn btn-primary btn-lg px-4 rounded-pill"><strong>Ordenar</strong></a> <span
-                        class="separacion"><strong>o</strong></span>
-                    <a href="#menu" class="boton2 btn btn-primary btn-lg px-4 rounded-pill"><strong>Menu</strong></a>
+                <section class="linea">
 
+
+
+                    <div
+                        class="empezar w-100 d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 p-3">
+
+                        <h2 class="orden">Empieza tu orden</h2>
+                        <a href="./pages/ordenar.html"
+                            class="boton1 btn btn-primary btn-lg px-4 rounded-pill"><strong>Ordenar</strong></a>
+                        <span class="separacion"><strong>o</strong></span>
+                        <a href="#menu"
+                            class="boton2 btn btn-primary btn-lg px-4 rounded-pill"><strong>Menu</strong></a>
+
+
+                    </div>
+
+                </section>
+
+                <!-- FOTO BANNER -->
+                <div class="imagen">
+                    <img src="./assets/img/banner.jpg" class="banner" alt="Banner de pizzas">
+
+                    <!-- tarjeta promo -->
+                    <div class="tarjeta-promo">
+                        <p class="flash">PROMO FLASH</p>
+                        <h3 class="promo">Elige 2 de Cualquier pizza<br>por 6.99$ cada uno</h3>
+                        <p class="texto-promo">
+                            Tu elección de dos pizzas medianas, acompañantes o postres.
+                            Mejora a orilla rellena de queso por $4 más.
+                        </p>
+                        <button class="boton-promo">AGREGAR PROMO</button>
+                    </div>
 
                 </div>
 
-            </section>
 
-            <!-- FOTO BANNER -->
-            <div class="imagen">
-                <img src="./assets/img/banner.jpg" class="banner" alt="Banner de pizzas">
+                <!-- ====== SECCIÓN DE PROMOS ====== -->
+                <section class="seccion-promo">
+                    <h2 class="promociones">Promociones</h2>
 
-                <!-- tarjeta promo -->
-                <div class="tarjeta-promo">
-                    <p class="flash">PROMO FLASH</p>
-                    <h3 class="promo">Elige 2 de Cualquier pizza<br>por 6.99$ cada uno</h3>
-                    <p class="texto-promo">
-                        Tu elección de dos pizzas medianas, acompañantes o postres.
-                        Mejora a orilla rellena de queso por $4 más.
+                    <div class="deslizador">
+
+                        <!-- Botón izquierda -->
+                        <button class="boton-promo2" id="promos">&#10094;</button>
+                        <div class="promo-pista" id="promos-pista">
+
+                            <!-- Tarjeta 1 -->
+                            <article class="tarjeta-promo2">
+                                <img src="./assets/img/especialidad2.png" alt="Promo 1" class="promo-img">
+                                <div class="tarjeta-promo-body">
+                                    <h3 class="tarjeta-promo-titulo">Especialidad por $9.99</h3>
+                                    <p class="tarjeta-promo-texto">
+                                        Cualquier pizza especial mediana por solo $9.99 cada una.
+                                    </p>
+                                    <button class="promo-detalles">Ver detalles</button>
+                                </div>
+                            </article>
+
+                            <!-- Tarjeta 2 -->
+                            <article class="tarjeta-promo2">
+                                <img src="./assets/img/combosfamiliares.png" alt="Promo 2" class="promo-img">
+                                <div class="tarjeta-promo-body">
+                                    <h3 class="tarjeta-promo-titulo">Combos familiares</h3>
+                                    <p class="tarjeta-promo-texto">
+                                        2 pizzas, alitas y bebida para compartir en familia.
+                                    </p>
+                                    <button class="promo-detalles">Ver detalles</button>
+                                </div>
+                            </article>
+
+                            <!-- Tarjeta 3 -->
+                            <article class="tarjeta-promo2">
+                                <img src="./assets/img/postres.jpg" alt="Promo 3" class="promo-img">
+                                <div class="tarjeta-promo-body">
+                                    <h3 class="tarjeta-promo-titulo">Postres 2x1</h3>
+                                    <p class="tarjeta-promo-texto">
+                                        Lleva dos postres por el precio de uno los fines de semana.
+                                    </p>
+                                    <button class="promo-detalles">Ver detalles</button>
+                                </div>
+                            </article>
+
+
+                            <!-- Tarjeta 4 -->
+                            <article class="tarjeta-promo2">
+                                <img src="./assets/img/2pizzas.png" alt="Promo 4" class="promo-img">
+                                <div class="tarjeta-promo-body">
+                                    <h3 class="tarjeta-promo-titulo">2 Pizzas por $6.99</h3>
+                                    <p class="tarjeta-promo-texto">
+                                        Elige 2 pizzas medianas de cualquier especialidad por solo $6.99 cada una.
+                                    </p>
+                                    <button class="promo-detalles">Ver detalles</button>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                        <!-- Botón derecha -->
+                        <button class="boton-promo2" id="promos2">&#10095;</button>
+
+                    </div>
+                </section>
+
+                <!-- SISTEMA DE PUNTOS -->
+
+                <section class="seccion-puntos global">
+                    <h2 class="titulo-puntos">Programa de Puntos ALEPIZZA</h2>
+                    <p class="subtitulo-puntos">
+                        Acumula puntos con cada compra y canjéalos por pizzas, bebidas y postres.
                     </p>
-                    <button class="boton-promo">AGREGAR PROMO</button>
-                </div>
 
-            </div>
+                    <div class="tarjeta-puntos">
+                        <h3 class="puntos-titulo">¡Gana recompensas!</h3>
+                        <p class="puntos-texto">
+                            Por cada compra sumas puntos automáticamente.
+                            Consulta cuántos puntos tienes disponibles en tu cuenta.
+                        </p>
 
-
-            <!-- ====== SECCIÓN DE PROMOS ====== -->
-            <section class="seccion-promo">
-                <h2 class="promociones">Promociones</h2>
-
-                <div class="deslizador">
-
-                    <!-- Botón izquierda -->
-                    <button class="boton-promo2" id="promos">&#10094;</button>
-                    <div class="promo-pista" id="promos-pista">
-
-                        <!-- Tarjeta 1 -->
-                        <article class="tarjeta-promo2">
-                            <img src="./assets/img/especialidad2.png" alt="Promo 1" class="promo-img">
-                            <div class="tarjeta-promo-body">
-                                <h3 class="tarjeta-promo-titulo">Especialidad por $9.99</h3>
-                                <p class="tarjeta-promo-texto">
-                                    Cualquier pizza especial mediana por solo $9.99 cada una.
-                                </p>
-                                <button class="promo-detalles">Ver detalles</button>
-                            </div>
-                        </article>
-
-                        <!-- Tarjeta 2 -->
-                        <article class="tarjeta-promo2">
-                            <img src="./assets/img/combosfamiliares.png" alt="Promo 2" class="promo-img">
-                            <div class="tarjeta-promo-body">
-                                <h3 class="tarjeta-promo-titulo">Combos familiares</h3>
-                                <p class="tarjeta-promo-texto">
-                                    2 pizzas, alitas y bebida para compartir en familia.
-                                </p>
-                                <button class="promo-detalles">Ver detalles</button>
-                            </div>
-                        </article>
-
-                        <!-- Tarjeta 3 -->
-                        <article class="tarjeta-promo2">
-                            <img src="./assets/img/postres.jpg" alt="Promo 3" class="promo-img">
-                            <div class="tarjeta-promo-body">
-                                <h3 class="tarjeta-promo-titulo">Postres 2x1</h3>
-                                <p class="tarjeta-promo-texto">
-                                    Lleva dos postres por el precio de uno los fines de semana.
-                                </p>
-                                <button class="promo-detalles">Ver detalles</button>
-                            </div>
-                        </article>
-
-
-                        <!-- Tarjeta 4 -->
-                        <article class="tarjeta-promo2">
-                            <img src="./assets/img/2pizzas.png" alt="Promo 4" class="promo-img">
-                            <div class="tarjeta-promo-body">
-                                <h3 class="tarjeta-promo-titulo">2 Pizzas por $6.99</h3>
-                                <p class="tarjeta-promo-texto">
-                                    Elige 2 pizzas medianas de cualquier especialidad por solo $6.99 cada una.
-                                </p>
-                                <button class="promo-detalles">Ver detalles</button>
-                            </div>
-
-                        </article>
-
+                        <a href="./pages/recompensas.html" class="boton-puntos">Ver mis puntos</a>
                     </div>
-
-                    <!-- Botón derecha -->
-                    <button class="boton-promo2" id="promos2">&#10095;</button>
-
-                </div>
-            </section>
-
-<!-- SISTEMA DE PUNTOS -->
-
-<section class="seccion-puntos global">
-    <h2 class="titulo-puntos">Programa de Puntos ALEPIZZA</h2>
-    <p class="subtitulo-puntos">
-        Acumula puntos con cada compra y canjéalos por pizzas, bebidas y postres.
-    </p>
-
-    <div class="tarjeta-puntos">
-        <h3 class="puntos-titulo">¡Gana recompensas!</h3>
-        <p class="puntos-texto">
-            Por cada compra sumas puntos automáticamente.  
-            Consulta cuántos puntos tienes disponibles en tu cuenta.
-        </p>
-
-        <a href="./pages/recompensas.html" class="boton-puntos">Ver mis puntos</a>
-    </div>
-</section>
+                </section>
 
 
 
 
-            <!-- BUSCADOR DE MENU -->
+                <!-- BUSCADOR DE MENU -->
 
-            <section class="seccion-menu" id="menu">
-                <div class="contenedor">
+                <section class="seccion-menu" id="menu">
+                    <div class="contenedor">
 
-                    <!-- Título -->
-                    <h2 class="titulo-menu">Menu</h2>
+                        <!-- Título -->
+                        <h2 class="titulo-menu">Menu</h2>
 
-                    <!-- Grillo de tarjetas -->
+                        <!-- Grillo de tarjetas -->
 
-                    <div class="row g-3">
+                        <div class="row g-3">
 
-                        <!-- 1. construye tu pizza -->
+                            <!-- 1. construye tu pizza -->
 
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/creatupizza.png" alt="Crea tu piza" class="menu-img">
-                                <h3 class="texto-menu">CREA TU PIZZA</h3>
-                                <p class="texto-pan">Arma la mejor pizza a tu gusto</p>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/creatupizza.png" alt="Crea tu piza" class="menu-img">
+                                    <h3 class="texto-menu">CREA TU PIZZA</h3>
+                                    <p class="texto-pan">Arma la mejor pizza a tu gusto</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- 2. especialidad de pizza -->
+                            <!-- 2. especialidad de pizza -->
 
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/especialidades pizza.png" alt="Especialidad de pizza"
-                                    class="menu-img">
-                                <h3 class="texto-menu">Especialidad de pizzas</h3>
-                                <p class="texto-pan">Elige tu pizza con las mejores especialidades de la casa</p>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/especialidades pizza.png" alt="Especialidad de pizza"
+                                        class="menu-img">
+                                    <h3 class="texto-menu">Especialidad de pizzas</h3>
+                                    <p class="texto-pan">Elige tu pizza con las mejores especialidades de la casa
+                                    </p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- 3. Panes -->
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/Panes.png" alt="panes" class="menu-img">
-                                <h3 class="texto-menu">PANES</h3>
-                                <p class="texto-pan">Los mejores panes en la pizzeria</p>
+                            <!-- 3. Panes -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/Panes.png" alt="panes" class="menu-img">
+                                    <h3 class="texto-menu">PANES</h3>
+                                    <p class="texto-pan">Los mejores panes en la pizzeria</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- 4. pollo -->
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/pollo.png" alt="pollo" class="menu-img">
-                                <h3 class="texto-menu">pollo</h3>
-                                <p class="texto-pan">Elige el mejor pollo y deleitate con todos sus sabores</p>
+                            <!-- 4. pollo -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/pollo.png" alt="pollo" class="menu-img">
+                                    <h3 class="texto-menu">pollo</h3>
+                                    <p class="texto-pan">Elige el mejor pollo y deleitate con todos sus sabores</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- 5. POSTRES -->
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/postres.png" alt="Postres" class="menu-img">
-                                <h3 class="texto-menu">POSTRES</h3>
-                                <p class="texto-pan">Elige entre todos los postres que tenemos disponibles</p>
+                            <!-- 5. POSTRES -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/postres.png" alt="Postres" class="menu-img">
+                                    <h3 class="texto-menu">POSTRES</h3>
+                                    <p class="texto-pan">Elige entre todos los postres que tenemos disponibles</p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- 6. Bebidas -->
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="tarjeta-menu">
-                                <img src="./assets/img/bebidas.png" alt="bebidas" class="menu-img">
-                                <h3 class="texto-menu">BEBIDAS</h3>
-                                <p class="texto-pan">Elige tu bebida favorita aqui</p>
+                            <!-- 6. Bebidas -->
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="tarjeta-menu">
+                                    <img src="./assets/img/bebidas.png" alt="bebidas" class="menu-img">
+                                    <h3 class="texto-menu">BEBIDAS</h3>
+                                    <p class="texto-pan">Elige tu bebida favorita aqui</p>
+                                </div>
                             </div>
+
                         </div>
 
                     </div>
-
-                </div>
         </div>
         </div>
         </section>
@@ -261,58 +272,58 @@
 
 
     </main>
-    <footer>
 
-        <footer class="footer">
-            <div class="footer-contenedor">
+    <footer class="footer">
+        <div class="footer-contenedor">
 
-                <div class="footer-col">
-                    <h4>Información Legal</h4>
-                    <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
-                        mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
-                        académicos.</p>
-                    <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
-                        estudiante o elementos libres de derechos.</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Soporte al Cliente</h4>
-                    <ul>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Términos del servicio</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
-                        <li><a href="#">Reportar un problema</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Nuestra Compañía</h4>
-                    <ul>
-                        <li><a href="#">Historia de la marca</a></li>
-                        <li><a href="#">Valores y misión</a></li>
-                        <li><a href="#">Oportunidades laborales</a></li>
-                        <li><a href="#">Contacto empresarial</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Otros enlaces</h4>
-                    <ul>
-                        <li><a href="#">Ubica tu tienda</a></li>
-                        <li><a href="#">Promociones activas</a></li>
-                        <li><a href="#">Hacer un pedido</a></li>
-                        <li><a href="#">Mis recompensas</a></li>
-                    </ul>
-                </div>
-
+            <div class="footer-col">
+                <h4>Información Legal</h4>
+                <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
+                    mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
+                    académicos.</p>
+                <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
+                    estudiante o elementos libres de derechos.</p>
             </div>
 
-            <div class="footer-bottom">
-                © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+            <div class="footer-col">
+                <h4>Soporte al Cliente</h4>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Términos del servicio</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Reportar un problema</a></li>
+                </ul>
             </div>
 
-        </footer>
+            <div class="footer-col">
+                <h4>Nuestra Compañía</h4>
+                <ul>
+                    <li><a href="#">Historia de la marca</a></li>
+                    <li><a href="#">Valores y misión</a></li>
+                    <li><a href="#">Oportunidades laborales</a></li>
+                    <li><a href="#">Contacto empresarial</a></li>
+                </ul>
+            </div>
 
+            <div class="footer-col">
+                <h4>Otros enlaces</h4>
+                <ul>
+                    <li><a href="#">Ubica tu tienda</a></li>
+                    <li><a href="#">Promociones activas</a></li>
+                    <li><a href="#">Hacer un pedido</a></li>
+                    <li><a href="#">Mis recompensas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

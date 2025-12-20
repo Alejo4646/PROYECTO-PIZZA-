@@ -1,66 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ale pizza</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>ALEPIZZA | Ordenar</title>
+    <meta name="description"
+        content="Elige tu ALEPIZZA favorita, personaliza tipo de pizza, toppings y extras. Página de pedido del proyecto académico ALEPIZZA, responsive con Bootstrap y SASS." />
+    <meta name="keywords"
+        content="pizza, ordenar pizza, toppings, extras, pedido online, ALEPIZZA, promociones, proyecto académico" />
+    <meta name="author" content="Alejandro" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary w-100">
+            <div class="container-fluid px-3 position-relative">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center gap-2 me-auto" href="../index.html">
+                    <img src="../assets/img/LOGO ALE.psd.png" alt="Logo ALEPIZZA" width="48" height="48">
+                </a>
 
-        <!-- titulo e imagen -->
+                <!-- Nombre centrado -->
+                <span class="navbar-text position-absolute start-50 translate-middle-x fw-bold text-white">
+                    ALEPIZZA
+                </span>
 
-        <div class="logo">
-            <img width="150px" src="../assets/img/LOGO ALE.psd.png" alt="">
-        </div>
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-
-        <div class="titulo">
-            <h1>Bienvenidos a ALEPIZZA</h1>
-        </div>
-
-        <!-- seccion a enlaces -->
-
-        <nav class="contactos">
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/ordenar.html">ordenar</a></li>
-                <li><a href="/pages/compra.html">pagar</a></li>
-                <li><a href="/pages/Graciasporsucompra.html">Gracias</a></li>
-                <li><a href="/pages/recompensas.html">recompensas</a></li>
-                <li><a href="#menu">Menu</a></li>
-            </ul>
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="./ordenar.html">Ordenar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./compra.html">Pagar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Graciasporsucompra.html">Gracias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./recompensas.html">Recompensas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#menu">Menú</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <i class="fa-solid fa-bars hamburguesa"></i>
-
     </header>
+
     <main>
         <div class="global">
 
             <!-- SECCIÓN ORDENAR -->
-            <section class="Ordenar">
-                <h2 class="titulo-ordenar">
+            <section class="ordenar">
+                <h1 class="titulo-ordenar text-center">
                     ¡GRACIAS POR PREFERIRNOS!
-                </h2>
-                <p class="substitulo-ordenar">
+                </h1>
+                <p class="subtitulo-ordenar text-center">
                     Ahora elige cómo quieres tu ALEPIZZA. Personaliza el tipo, toppings y extras.
                 </p>
 
                 <div class="row g-4 align-items-start">
-
                     <!-- FORMULARIO -->
                     <div class="col-12 col-lg-7">
                         <div class="tarjeta">
-                            <h3 class="titulo-tarjeta">Elige qué pizza quieres</h3>
+                            <h2 class="titulo-tarjeta">Elige qué pizza quieres</h2>
 
-                            <form>
-
+                            <form aria-label="Formulario para elegir pizza ALEPIZZA">
                                 <!-- Tipos de pizza -->
                                 <div class="mb-3">
                                     <label for="tipoPizza" class="form-label">Tipos de pizza</label>
@@ -101,15 +113,17 @@
                                 </div>
 
                                 <!-- Botón pagar -->
-                                <a href="/pages/compra.html" class="btn btn-danger w-100 rounded-pill fw-bold">PAGAR</a>
-
+                                <a href="./compra.html" class="btn btn-danger w-100 rounded-pill fw-bold">
+                                    PAGAR
+                                </a>
+                            </form>
                         </div>
                     </div>
 
                     <!-- TARJETA LATERAL / PROMO -->
                     <div class="col-12 col-lg-5">
-                        <aside class="resumen-orden">
-                            <h3 class="resumen-orden-titulo">Promo aplicada</h3>
+                        <aside class="resumen-orden" aria-label="Resumen de la orden">
+                            <h2 class="resumen-orden-titulo">Promo aplicada</h2>
                             <p class="resumen-orden-texto">
                                 Estás aprovechando la promoción de ALEPIZZA. Elige tu combinación favorita
                                 y finaliza tu pedido.
@@ -131,13 +145,11 @@
                             </p>
                         </aside>
                     </div>
-
                 </div>
             </section>
 
         </div>
     </main>
-
 
     <footer class="footer">
         <div class="footer-contenedor">
@@ -187,6 +199,9 @@
             © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

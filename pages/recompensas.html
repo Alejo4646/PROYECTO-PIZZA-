@@ -1,50 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ale pizza</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>ALEPIZZA | Programa de puntos</title>
+    <meta name="description"
+        content="Programa de puntos ficticio de ALEPIZZA. Consulta tu progreso, niveles de cliente y recompensas de ejemplo para este proyecto académico." />
+    <meta name="keywords"
+        content="puntos, recompensas, programa de puntos, ALEPIZZA, fidelidad, proyecto académico" />
+    <meta name="author" content="Alejandro" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
 
 <body>
+    <!-- HEADER / NAVBAR -->
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary w-100">
+            <div class="container-fluid px-3 position-relative">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center gap-2 me-auto" href="../index.html">
+                    <img src="../assets/img/LOGO ALE.psd.png" alt="Logo ALEPIZZA" width="48" height="48">
+                </a>
 
-        <!-- titulo e imagen -->
+                <!-- Nombre centrado -->
+                <span class="navbar-text position-absolute start-50 translate-middle-x fw-bold text-white">
+                    ALEPIZZA
+                </span>
 
-        <div class="logo">
-            <img width="150px" src="../assets/img/LOGO ALE.psd.png" alt="">
-        </div>
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-
-        <div class="titulo">
-            <h1>Bienvenidos a ALEPIZZA</h1>
-        </div>
-
-        <!-- seccion a enlaces -->
-
-        <nav class="contactos">
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/ordenar.html">ordenar</a></li>
-                <li><a href="/pages/compra.html">pagar</a></li>
-                <li><a href="/pages/Graciasporsucompra.html">Gracias</a></li>
-                <li><a href="/pages/recompensas.html">recompensas</a></li>
-                <li><a href="#menu">Menu</a></li>
-            </ul>
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./ordenar.html">Ordenar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./compra.html">Pagar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Graciasporsucompra.html">Gracias</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./recompensas.html">Recompensas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#menu">Menú</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <i class="fa-solid fa-bars hamburguesa"></i>
-
     </header>
 
-<main class="global puntos">
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="global puntos">
         <!-- HERO -->
         <section class="puntos-hero">
-            <h2 class="puntos-titulo">Programa de puntos ALEPIZZA</h2>
+            <h1 class="puntos-titulo">Programa de puntos ALEPIZZA</h1>
             <p class="puntos-subtitulo">
                 Gana puntos ficticios cada vez que “realizas un pedido” en este proyecto.
                 <br>
@@ -56,7 +70,7 @@
         <section class="puntos-contenido">
             <!-- Resumen de puntos -->
             <article class="puntos-card puntos-resumen">
-                <h3 class="puntos-card-titulo">Tu progreso actual</h3>
+                <h2 class="puntos-card-titulo">Tu progreso actual</h2>
 
                 <p class="puntos-puntaje">
                     <span class="puntos-numero">120</span>
@@ -83,27 +97,27 @@
 
             <!-- Cómo funciona -->
             <article class="puntos-card puntos-como-funciona">
-                <h3 class="puntos-card-titulo">¿Cómo funciona?</h3>
+                <h2 class="puntos-card-titulo">¿Cómo funciona?</h2>
 
                 <ol class="puntos-pasos">
                     <li>
                         <span class="puntos-paso-numero">1</span>
                         <div>
-                            <h4>Haz tu pedido</h4>
+                            <h3>Haz tu pedido</h3>
                             <p>Simula una compra desde la sección de ordenar o pago de ALEPIZZA.</p>
                         </div>
                     </li>
                     <li>
                         <span class="puntos-paso-numero">2</span>
                         <div>
-                            <h4>Gana puntos</h4>
+                            <h3>Gana puntos</h3>
                             <p>Por cada pedido ficticio, imagina que se suman puntos a tu cuenta.</p>
                         </div>
                     </li>
                     <li>
                         <span class="puntos-paso-numero">3</span>
                         <div>
-                            <h4>Canjea recompensas</h4>
+                            <h3>Canjea recompensas</h3>
                             <p>Al llegar a la meta, “canjea” tus puntos por pizzas o postres de ejemplo.</p>
                         </div>
                     </li>
@@ -118,11 +132,11 @@
 
         <!-- NIVELES -->
         <section class="puntos-niveles">
-            <h3 class="puntos-niveles-titulo">Niveles de cliente (ficticios)</h3>
+            <h2 class="puntos-niveles-titulo">Niveles de cliente (ficticios)</h2>
 
             <div class="puntos-niveles-grid">
                 <article class="puntos-nivel-card puntos-nivel-bronce">
-                    <h4>Bronce</h4>
+                    <h3>Bronce</h3>
                     <p class="puntos-nivel-puntos">0 – 199 puntos</p>
                     <ul>
                         <li>Acceso a promociones básicas de ejemplo.</li>
@@ -131,7 +145,7 @@
                 </article>
 
                 <article class="puntos-nivel-card puntos-nivel-plata">
-                    <h4>Plata</h4>
+                    <h3>Plata</h3>
                     <p class="puntos-nivel-puntos">200 – 399 puntos</p>
                     <ul>
                         <li>“Pizza mediana” ficticia cada 200 puntos.</li>
@@ -140,7 +154,7 @@
                 </article>
 
                 <article class="puntos-nivel-card puntos-nivel-oro">
-                    <h4>Oro</h4>
+                    <h3>Oro</h3>
                     <p class="puntos-nivel-puntos">400+ puntos</p>
                     <ul>
                         <li>“Pizza grande” ficticia cada 400 puntos.</li>
@@ -158,67 +172,64 @@
                 Puedes modificar textos, números y beneficios para adaptarlos a la consigna de tu curso.
             </p>
         </section>
+
+        <!-- Botón para ir a inicio -->
+        <div class="boton">
+            <a href="../index.html" class="boton-inicio">Volver a inicio</a>
+        </div>
     </main>
 
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-contenedor">
 
-    <!-- boton para ir a inicio -->
-    <div class="boton">
-
-        <a href="/index.html"><button class="boton-inicio">Volver a inicio</button></a>
-
-    </div>
-    <footer>
-
-        <footer class="footer">
-            <div class="footer-contenedor">
-
-                <div class="footer-col">
-                    <h4>Información Legal</h4>
-                    <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
-                        mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
-                        académicos.</p>
-                    <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
-                        estudiante o elementos libres de derechos.</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Soporte al Cliente</h4>
-                    <ul>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Términos del servicio</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
-                        <li><a href="#">Reportar un problema</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Nuestra Compañía</h4>
-                    <ul>
-                        <li><a href="#">Historia de la marca</a></li>
-                        <li><a href="#">Valores y misión</a></li>
-                        <li><a href="#">Oportunidades laborales</a></li>
-                        <li><a href="#">Contacto empresarial</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Otros enlaces</h4>
-                    <ul>
-                        <li><a href="#">Ubica tu tienda</a></li>
-                        <li><a href="#">Promociones activas</a></li>
-                        <li><a href="#">Hacer un pedido</a></li>
-                        <li><a href="#">Mis recompensas</a></li>
-                    </ul>
-                </div>
-
+            <div class="footer-col">
+                <h4>Información Legal</h4>
+                <p>Esta es una página ficticia creada con fines educativos. Los precios, productos y promociones
+                    mostrados no representan ninguna empresa real y solo sirven como ejemplo para proyectos
+                    académicos.</p>
+                <p>El contenido, imágenes y textos utilizados pueden ser remplazados por material propio del
+                    estudiante o elementos libres de derechos.</p>
             </div>
 
-            <div class="footer-bottom">
-                © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+            <div class="footer-col">
+                <h4>Soporte al Cliente</h4>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Términos del servicio</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Reportar un problema</a></li>
+                </ul>
             </div>
 
-        </footer>
+            <div class="footer-col">
+                <h4>Nuestra Compañía</h4>
+                <ul>
+                    <li><a href="#">Historia de la marca</a></li>
+                    <li><a href="#">Valores y misión</a></li>
+                    <li><a href="#">Oportunidades laborales</a></li>
+                    <li><a href="#">Contacto empresarial</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Otros enlaces</h4>
+                <ul>
+                    <li><a href="#">Ubica tu tienda</a></li>
+                    <li><a href="#">Promociones activas</a></li>
+                    <li><a href="#">Hacer un pedido</a></li>
+                    <li><a href="#">Mis recompensas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 ALEPIZZA — Proyecto académico. Sitio creado únicamente con fines educativos.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 
 </html>
